@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            background-image: url('background.jpg'); /* Adiciona uma imagem de fundo */
+            background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            background-position: center; /* Centraliza a imagem de fundo */
+        }
+        .container {
+            max-width: 600px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+            padding: 20px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Meu Perfil</h1>
-
-    
-    <p>Nome: Afonso Bulhões</p>
-
-    
-    <p>Curso: Técnico de Instalação e Gestão de Redes</p>
-
-    <p>Foto: Nautilus House</p>
-    <img src="Nautilus.jpg"  alt="Minha Foto">
+    <div class="container">
+        <h1>Meu Perfil</h1>
+        <p>Nome: Afonso Bulhões</p>
+        <p>Curso: Técnico de Instalação e Gestão de Redes</p>
+        <p>Foto: Nautilus House</p>
+        <img src="Nautilus.jpg" alt="Minha Foto">
+    </div>
 
 </body>
 </html>
